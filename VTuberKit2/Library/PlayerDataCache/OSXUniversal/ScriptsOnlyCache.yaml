@@ -1,0 +1,934 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AniLipSync.Live2D.AnimMorphTarget
+    - AniLipSync.Live2D.LowLatencyLipSyncContext
+    - AniLipSync.Live2D.VisemeShapeClip
+    - GazeController
+    - Live2D.Cubism.Core.CubismDrawable
+    - Live2D.Cubism.Core.CubismMoc
+    - Live2D.Cubism.Core.CubismModel
+    - Live2D.Cubism.Core.CubismParameter
+    - Live2D.Cubism.Core.CubismPart
+    - Live2D.Cubism.Framework.CubismAutoEyeBlinkInput
+    - Live2D.Cubism.Framework.CubismEyeBlinkController
+    - Live2D.Cubism.Framework.CubismEyeBlinkParameter
+    - Live2D.Cubism.Framework.CubismParametersInspector
+    - Live2D.Cubism.Framework.CubismPartsInspector
+    - Live2D.Cubism.Framework.HarmonicMotion.CubismHarmonicMotionController
+    - Live2D.Cubism.Framework.HarmonicMotion.CubismHarmonicMotionParameter
+    - Live2D.Cubism.Framework.Physics.CubismPhysicsController
+    - Live2D.Cubism.Rendering.CubismRenderController
+    - Live2D.Cubism.Rendering.CubismRenderer
+    - Live2D.Cubism.Rendering.Masking.CubismMaskCommandBuffer
+    - Live2D.Cubism.Rendering.Masking.CubismMaskController
+    - Live2D.Cubism.Rendering.Masking.CubismMaskTexture
+    - OVRLipSync
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+  sceneClasses:
+    Assets/Scenes/Hiyoki_quiet.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 9728}
+    - Class: 114
+      Script: {instanceID: 9796}
+    - Class: 114
+      Script: {instanceID: 9800}
+    - Class: 114
+      Script: {instanceID: 10148}
+    - Class: 114
+      Script: {instanceID: 10264}
+    - Class: 114
+      Script: {instanceID: 10316}
+    - Class: 114
+      Script: {instanceID: 10552}
+    - Class: 114
+      Script: {instanceID: 10700}
+    - Class: 114
+      Script: {instanceID: 10736}
+    - Class: 114
+      Script: {instanceID: 10930}
+    - Class: 114
+      Script: {instanceID: 11072}
+    - Class: 114
+      Script: {instanceID: 11150}
+    - Class: 114
+      Script: {instanceID: 11248}
+    - Class: 114
+      Script: {instanceID: 11326}
+    - Class: 114
+      Script: {instanceID: 11372}
+    - Class: 114
+      Script: {instanceID: 11432}
+    - Class: 114
+      Script: {instanceID: 11518}
+    - Class: 114
+      Script: {instanceID: 11594}
+    - Class: 114
+      Script: {instanceID: 11724}
+    - Class: 114
+      Script: {instanceID: 11766}
+    - Class: 114
+      Script: {instanceID: 11784}
+    - Class: 114
+      Script: {instanceID: 11952}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 4bc4346a71a8df53a6b106f68ef3a190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 984dcc0ba3707b7691fbdca8ff508d28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 9e316a524f4b2c1f0a68212bfb775c6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Rendering.Masking
+    className: CubismMaskTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bf530eb47e6a86dcee1d42e40c3b7ac8
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Rendering.Masking
+    className: CubismMaskCommandBuffer
+  - hash:
+      serializedVersion: 2
+      Hash: c60e173fc10ea85fd98d9751ce3ec2b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.Raycasting
+    className: RaycastHitDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: e4c511fcf31a39b6e614595be7309046
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LipSyncDemo_Control
+  - hash:
+      serializedVersion: 2
+      Hash: cc62079eafd1f58edce9781472a91dfc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.HarmonicMotion
+    className: CubismHarmonicMotionController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismPartsInspector
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 59ebf10735e3e6bea4522951538a2cfb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Expression
+    className: CubismExpressionData
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.OriginalWorkflow.Demo
+    className: CubismLookTarget
+  - hash:
+      serializedVersion: 2
+      Hash: fc108ce7d98c40ac0907e8ca7f500c76
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 06a330481ec400be50745bb7faf76bd0
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: b2497797ac61965ccfbc462df71c514f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Expression
+    className: CubismExpressionList
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 89498a9a4a6296605faa18a2c5f758a4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 9e70ecf91466f07d9bd649be625cae52
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ccf3efea866e24e29c2aed2dfc5c2b1c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.AsyncBenchmark
+    className: FpsCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f7dae448b3e1f17ef9a5b67dec67e817
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.LookAt
+    className: CubismLookParameter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.OriginalWorkflow.Expression
+    className: CubismExpressionPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 75f5cade47ce4bb6be90ed83933e0833
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Pose
+    className: CubismPoseController
+  - hash:
+      serializedVersion: 2
+      Hash: 486514c75f14c4953f15a930531ea5d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.HarmonicMotion
+    className: CubismHarmonicMotionParameter
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 00274a21279f5cb831ce20f895049e38
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 28aa5f55542f195c3fb209ad2bde3759
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Expression
+    className: CubismExpressionController
+  - hash:
+      serializedVersion: 2
+      Hash: 6282e37fade1052518632738c633bcaf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Physics
+    className: CubismPhysicsController
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 960b8c650e763c3969b299fb56ce19d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Core
+    className: CubismModel
+  - hash:
+      serializedVersion: 2
+      Hash: 13dd6979a7570d2e56d0f92a17bab3a0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Motion
+    className: CubismMotionController
+  - hash:
+      serializedVersion: 2
+      Hash: 34885155ee0e38910e63694e21151fa5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MotionFade
+    className: CubismFadeController
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 84f118e8bb01e4e536b4fe72b0493ca3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncMicInput
+  - hash:
+      serializedVersion: 2
+      Hash: b8a5e8091ab0b8861d2add371082c5e0
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc90e648ac06f43bdd31ac9fa8f4579
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Raycasting
+    className: CubismRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0be4c5c10ae412b122a47f0f79c6f324
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncSequence
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MotionFade
+    className: CubismFadeStateObserver
+  - hash:
+      serializedVersion: 2
+      Hash: 23570437f2503712556ad2ed018f66da
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.LookAt
+    className: CubismLookController
+  - hash:
+      serializedVersion: 2
+      Hash: 835ab1dae39efb1b2d5df13660b6d4ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Core
+    className: CubismPart
+  - hash:
+      serializedVersion: 2
+      Hash: b3ab2106268377ffe25dd18ac23dca28
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Asset
+  - hash:
+      serializedVersion: 2
+      Hash: 97ace6213ad0f149b0917a4c669c6ca3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MouthMovement
+    className: CubismMouthParameter
+  - hash:
+      serializedVersion: 2
+      Hash: 265d6ae3150b0cd1ab1d1c2cae0d45ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AniLipSync.Live2D
+    className: AnimMorphTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: c88c4199b288356ec3eb2f0d85abc619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismHitDrawable
+  - hash:
+      serializedVersion: 2
+      Hash: 61c7e440799059d089dd591427242f79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncContextBase
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSync
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismParameterStore
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: ab9b3242e7f7cea8eb7d313db01cc29d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncContextCanned
+  - hash:
+      serializedVersion: 2
+      Hash: 92999935e7b91b636ce8ed70aab3dc1d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncContextMorphTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 157538f8f4891e8727c599fd613d7108
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncDebugConsole
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 516824a435828eadd660ef2f1658a48e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 92da9881aed190e8bb74661bcd74aa2c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismUpdateController
+  - hash:
+      serializedVersion: 2
+      Hash: 2b6c09c10204250b8b5af3088aefe3c4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Core
+    className: CubismMoc
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 8356b87a8409b3dfbde4d128a4bd31cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Rendering.Masking
+    className: CubismMaskController
+  - hash:
+      serializedVersion: 2
+      Hash: b4f33769b4be9dc6ee0546bbfc960cbb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncContext
+  - hash:
+      serializedVersion: 2
+      Hash: 12e64d607873da15ad3f833620350d51
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 5ad4aa237d47ac2bab17bacb672edf7a
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 35a9693c388776aaf487636491a20f11
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: e1300922cc039f41ab46a47f4cb05898
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 49e342280138b3738fbf10284479bf89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MouthMovement
+    className: CubismAutoMouthInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismParametersInspector
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: c1933cc0a2f4ff6eb13333347497beb3
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fca234fe3dc2acfbd3e0b090ec4d7951
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AniLipSync.Live2D
+    className: VisemeShapeClip
+  - hash:
+      serializedVersion: 2
+      Hash: 349fc863c5f9c0b3f7471af2e318712a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnableSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: ffe1860488f87099f16fa1ac8a8c3b39
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Core
+    className: CubismDrawable
+  - hash:
+      serializedVersion: 2
+      Hash: ee0cef6caaac8ae485bfa82f000f0f7b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 1c3a6267fee0cb8fd3eb7717fba415f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismEyeBlinkController
+  - hash:
+      serializedVersion: 2
+      Hash: 516635b86ecd79aece0dc2a35f66ba7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Pose
+    className: CubismPosePart
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2c3a983651633721b0f7f3e52bd371e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.LookAt
+    className: Billboarder
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 61c7e440799059d089dd591427242f79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: AniLipSync.Live2D
+    className: LowLatencyLipSyncContext
+  - hash:
+      serializedVersion: 2
+      Hash: 5d5ca3bbd513976fc28af53dd957e827
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.OriginalWorkflow.Demo
+    className: CubismSampleController
+  - hash:
+      serializedVersion: 2
+      Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.LookAt
+    className: CubismLookTargetBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 4bdd64f8bf1d051436b4f770f32a2c3e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.AsyncBenchmark
+    className: AsyncToggler
+  - hash:
+      serializedVersion: 2
+      Hash: 5b871371be3d6f1ea95771e059ef04bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.Raycasting
+    className: CubismRaycastable
+  - hash:
+      serializedVersion: 2
+      Hash: a9d1c831292dfdb2976daa7f847132c1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Core
+    className: CubismParameter
+  - hash:
+      serializedVersion: 2
+      Hash: 7a5e28c8af5776b5f3620b969a63eff9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GazeController
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 45c59f68c614fb1520920b0f4719b196
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MotionFade
+    className: CubismFadeMotionData
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 86595800ebd5d5ee257efdd7823c1cdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MotionFade
+    className: CubismFadeMotionList
+  - hash:
+      serializedVersion: 2
+      Hash: 394f7fecfd5105d482b57325bd057700
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MouthMovement
+    className: CubismMouthController
+  - hash:
+      serializedVersion: 2
+      Hash: 50a860f70d9172d9c4146826c893ff16
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Rendering
+    className: CubismRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 1b862038859b267ceaddb5cf7530c567
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LipSyncDemo_SetCurrentTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 5372ed2ce39229b1ac910757999a8be2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismEyeBlinkParameter
+  - hash:
+      serializedVersion: 2
+      Hash: eebbf7d623db712ec97dbaec845cd51e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Rendering
+    className: CubismRenderController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 0ca64eb3a7e249bf14d7674dc628f7fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.Masking
+    className: MaskTexturePreview
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 3f52d34ea17dfc771004b80f5d492445
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8649814970b42d345b89944b862453cc
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 7090bc1e5ccaec2a9d0d1335ed8cee99
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 0852116b29df10ce3f9156850d406521
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 28f0cd9251ee00dd4e9e572e37c63773
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.UserData
+    className: CubismUserDataTag
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 2a09bc4e999dc4be97ea5ab2ff166daa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework.MouthMovement
+    className: CubismAudioMouthInput
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.OriginalWorkflow.Motion
+    className: CubismMotionPreview
+  - hash:
+      serializedVersion: 2
+      Hash: 3ab7272a8b7d3ea5a142e0c9b6aae63b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 85c97bcc5f84eeb0999d75902803b99d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 8cf111447f1f4754264a4de62c3f57df
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OVRLipSyncContextTextureFlip
+  - hash:
+      serializedVersion: 2
+      Hash: 04d63486da11518562724078a21c9576
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Samples.AsyncBenchmark
+    className: ModelSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bb46a1d0f4b3010fe89bc2b011b45071
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Live2D.Cubism.Framework
+    className: CubismAutoEyeBlinkInput
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  platform: 2
+  scenePathNames:
+  - Assets/Scenes/Hiyoki_quiet.unity
+  playerPath: /Users/raphtalia/workspace/vtuber/VTuber/VTuberKit2/Hiyoki_quiet.app
