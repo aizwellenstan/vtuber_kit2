@@ -5,6 +5,7 @@ namespace AniLipSync.Live2D
 {
     public class AnimMorphTarget : MonoBehaviour
     {
+	    public static bool IsOn = true;
         [Tooltip("カーブの値を適用する際の倍率")]
         public float curveAmplifier = 100.0f;
 
@@ -50,6 +51,11 @@ namespace AniLipSync.Live2D
             {
                 return;
             }
+
+	    if(!IsOn)
+	{
+return;
+	}
 
             var frame = context.GetCurrentPhonemeFrame();
             if (frame == null)

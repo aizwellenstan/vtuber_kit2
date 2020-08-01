@@ -17,6 +17,7 @@ namespace Live2D.Cubism.Framework
     /// </summary>
     public sealed class CubismEyeBlinkController : MonoBehaviour, ICubismUpdatable
     {
+	    public static bool IsOn = true;
         /// <summary>
         /// Blend mode.
         /// </summary>
@@ -108,10 +109,13 @@ namespace Live2D.Cubism.Framework
         /// </summary>
         private void LateUpdate()
         {
-            if(!_hasUpdateController)
-            {
-                OnLateUpdate();
-            }
+		if(IsOn)
+		{
+            		if(!_hasUpdateController)
+            		{
+                		OnLateUpdate();
+            		}
+		}
         }
 
         #endregion

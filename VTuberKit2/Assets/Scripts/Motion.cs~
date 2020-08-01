@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using Live2D.Cubism.Core;
+using Live2D.Cubism.Framework;
+
+public class Motion: MonoBehaviour
+{
+	public CubismModel _model;
+   	private CubismParameter _param;
+ 
+   	[SerializeField]
+    	public string ParameterID = "";
+
+	void Start()
+    	{
+        	 _model = this.FindCubismModel();
+ 
+        	_param = _model.Parameters.FindById(ParameterID);
+
+		Debug.Log(_param.Value);
+    	}
+
+    	void Update()
+    	{
+		_param.Value=0;
+    	}
+}

@@ -1,0 +1,23 @@
+﻿using UnityEngine;
+using Live2D.Cubism.Core;
+using Live2D.Cubism.Framework;
+ 
+public class ParameterLateUpdate : MonoBehaviour
+{
+    private CubismModel _model;
+    private CubismParameter _paramAngleZ;
+ 
+    [SerializeField]
+    public string ParameterID = "PARAM_ANGLE_Z";
+ 
+ 
+    private void Start()
+    {
+        _model = this.FindCubismModel();
+ 
+        _paramAngleZ = _model.Parameters.FindById(ParameterID);
+
+	Debug.Log(_paramAngleZ.Value);
+    }
+}
+
