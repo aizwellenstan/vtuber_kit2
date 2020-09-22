@@ -37,7 +37,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/Hiyoki.unity:
+    Assets/Scenes/Hiyoki_quiet.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -67,49 +67,49 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11264}
+      Script: {instanceID: 11238}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11316}
     - Class: 114
-      Script: {instanceID: 11690}
+      Script: {instanceID: 11664}
     - Class: 114
-      Script: {instanceID: 11818}
+      Script: {instanceID: 11792}
     - Class: 114
-      Script: {instanceID: 11870}
+      Script: {instanceID: 11844}
     - Class: 114
-      Script: {instanceID: 12122}
+      Script: {instanceID: 12096}
     - Class: 114
-      Script: {instanceID: 12290}
+      Script: {instanceID: 12264}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 12536}
+      Script: {instanceID: 12510}
     - Class: 114
-      Script: {instanceID: 12682}
+      Script: {instanceID: 12656}
     - Class: 114
-      Script: {instanceID: 12762}
+      Script: {instanceID: 12736}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12840}
     - Class: 114
-      Script: {instanceID: 12962}
+      Script: {instanceID: 12936}
     - Class: 114
-      Script: {instanceID: 13008}
+      Script: {instanceID: 12982}
     - Class: 114
-      Script: {instanceID: 13072}
+      Script: {instanceID: 13046}
     - Class: 114
-      Script: {instanceID: 13162}
+      Script: {instanceID: 13136}
     - Class: 114
-      Script: {instanceID: 13240}
+      Script: {instanceID: 13214}
     - Class: 114
-      Script: {instanceID: 13370}
+      Script: {instanceID: 13344}
     - Class: 114
-      Script: {instanceID: 13412}
+      Script: {instanceID: 13386}
     - Class: 114
-      Script: {instanceID: 13430}
+      Script: {instanceID: 13404}
     - Class: 114
-      Script: {instanceID: 13610}
+      Script: {instanceID: 13584}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -947,5 +947,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/Scenes/Hiyoki.unity
-  playerPath: D:/workspace/vtuber_kit2/2.0/Hiyoki/Hiyoki.exe
+  - Assets/Scenes/Hiyoki_quiet.unity
+  playerPath: D:/workspace/vtuber_kit2/2.0/Hiyoki_quite/Hiyoki_quite.exe
